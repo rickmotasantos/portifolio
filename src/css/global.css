@@ -5,4 +5,11 @@
 html {
     font-size: 62.5%;
     font-weight: 300;
+    color: var(--cor-branca);
+}
+
+body {
+    background-color: var(--cor-fundo-cinza-escuro);
+    font-family: var(--font-primaria);
+    font-size: var(--font-normal);
 }
