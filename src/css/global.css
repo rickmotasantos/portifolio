@@ -17,3 +17,11 @@ body {
 .row {
     display: flex;
 }
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.alinhar-itens-no-centro {
+    align-items: center;
+}
