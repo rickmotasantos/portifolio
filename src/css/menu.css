@@ -27,4 +27,7 @@
     font-weight: 500;
     padding: 10px 20px;
     transition: 0.3s;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    user-select: none;
 }
