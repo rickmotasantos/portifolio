@@ -6,8 +6,25 @@
     font-family: var(--font-primaria);
     font-size: var(--font-extra-grande);
     display: flex;
+    transition: 0.3s;
 }
 
 .header .logo span {
     color: var(--cor-span);
+}
+
+.header a:hover .logo {
+    color: var(--cor-primaria);
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav li a {
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: 0.3s;
 }
