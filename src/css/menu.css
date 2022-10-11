@@ -11,10 +11,15 @@
 
 .header .logo span {
     color: var(--cor-span);
+    transition: 0.3s;
 }
 
 .header a:hover .logo {
     color: var(--cor-primaria);
+}
+
+.header a:hover span {
+    border-bottom: 1px solid var(--cor-primaria);
 }
 
 .header nav ul {
