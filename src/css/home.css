@@ -46,7 +46,7 @@
     margin-bottom: 30px;
 }
 
-@media (max-width: 280px){
+@media (max-width: 480px){
     .home .text-home,
     .home .img-home {
         flex: 0 0 100%;
