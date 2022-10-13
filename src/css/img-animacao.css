@@ -1,0 +1,15 @@
+.img-home {
+    position: relative;
+}
+.img-home .img-box img{
+    position: relative;
+    top: 40%;
+    animation: downarrow 0.8s infinite alternate ease-in-out;
+}
+
+@-webkit-keyframes downarrow {
+    0% {
+        -webkit-transform: translate(0);
+        -webkit-transform: translateY(2rem);
+    }
+}
