@@ -1,0 +1,4 @@
+.habilidades .container-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+}
