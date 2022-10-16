@@ -1,0 +1,4 @@
+.projetos .container-projetos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
