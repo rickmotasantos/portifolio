@@ -11,6 +11,9 @@
     width: 253px;
     height: 347px;
 }
+ /* .container-projetos .projeto img {
+    width: 200px;
+ } */
 @media (max-width: 1280px) {
     .projetos .container-projetos {
         padding: 0 var(--mobile-padding);
