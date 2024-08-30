@@ -9,6 +9,7 @@
     max-width: 350px;
     padding:20px;
     margin: 5px;
+    cursor: pointer;
 }
 
 .habilidades .container-habilidades .habilidade p,
