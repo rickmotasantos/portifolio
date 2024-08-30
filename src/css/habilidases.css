@@ -7,7 +7,8 @@
 
 .habilidades .container-habilidades .habilidade {
     max-width: 350px;
-    padding: 40px 20px;
+    padding:20px;
+    margin: 5px;
 }
 
 .habilidades .container-habilidades .habilidade p,
@@ -26,11 +27,42 @@
     margin-bottom: 20px;
 }
 
+.habilidades .container-habilidades .habilidade .infomacao-visualizacao-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: var(--cor-tercearia);
+}
+
+.habilidades .container-habilidades .habilidade .infomacao-visualizacao-conteudo .mobile {
+    display: none;
+}
+
 .habilidades .container-habilidades .habilidade p {
     font-size: 1.8rem;
     font-family: var(--font-secundaria);
+    opacity: 0;
+    cursor: pointer;
+    transition: all 1s ease;
 }
 
 .habilidades .container-habilidades .habilidade .logo i {
     font-size: 8rem;
+}
+
+.habilidades .container-habilidades .habilidade:hover p {
+    opacity: 1;
+}
+
+
+@media (max-width:520px){
+    .habilidades .container-habilidades .habilidade .infomacao-visualizacao-conteudo .desktop {
+        display: none;
+    }
+
+    .habilidades .container-habilidades .habilidade .infomacao-visualizacao-conteudo .mobile {
+        display: flex;
+    }
 }
