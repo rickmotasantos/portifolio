@@ -5,9 +5,9 @@
     --cor-branca: #fff;
     --cor-fundo-escuro: #040203;
     --cor-fundo-cinza-escuro: background: rgb(83,5,228);
-    background: linear-gradient(90deg, rgba(83,5,228,1) 0%, rgba(40,40,40,1)25%);;
+    background: linear-gradient(90deg, rgba(83,5,228,1) 0%, rgba(40,40,40,1)55%);;
     --cor-fundo-cinza-claro: #353535;
-    --cor-span: rgb(50, 38, 219);
+    --cor-span: rgb(0, 0, 0);
 }
 
 :root {
